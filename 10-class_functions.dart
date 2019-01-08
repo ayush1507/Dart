@@ -1,15 +1,23 @@
 void main(){
   
-  var fruit = Fruits();
-  fruit.qty = 25;
-  fruit.name="MANGO";
+  var fruit1 = Fruits();
+  fruit1.qty = 25;
+  fruit1.name="MANGO";
   
-  print('${fruit.qty} & ${fruit.name} ');
+  print('${fruit1.qty} & ${fruit1.name} ');
   
   //Calling a Function(availability)
-  fruit.availability();
+  fruit1.availability();
   
   
+  var fruit2 = Fruits();
+  fruit2.qty = 25;
+  fruit2.name="APPLE";
+  
+  print('${fruit2.qty} & ${fruit2.name} ');
+  
+  //Calling a Function(availability)
+  fruit2.availability();
   
  }
 
