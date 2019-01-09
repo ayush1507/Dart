@@ -1,2 +1,2 @@
 # Dart
-Beginners package for learning dart language.
+Basics for learning dart language.
